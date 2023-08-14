@@ -17,3 +17,20 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+
+
+const textArray = [
+    "Power BI developer",
+    "data enthusiast"
+    
+  ];
+
+  const changingTextElement = document.getElementById("changingText");
+  let currentIndex = 0;
+
+  function changeText() {
+    changingTextElement.textContent = textArray[currentIndex];
+    currentIndex = (currentIndex + 1) % textArray.length;
+  }
+
+  setInterval(changeText, 1000); // Change text every 2 seconds

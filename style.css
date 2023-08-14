@@ -13,9 +13,11 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: fantasy;
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: Papyrus, fantasy;
 }
 .hero-text {
     text-align: center;
@@ -24,6 +26,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.no-bullets {
+    list-style-type: none;
+    width: 75%;
+  }
+
+.changingText{
+    text-decoration: none;
 }
 
 /* spacing on all sections */
