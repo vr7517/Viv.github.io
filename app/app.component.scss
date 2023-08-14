@@ -1,0 +1,52 @@
+
+  .example-spacer {
+    flex: 1 1 auto;
+  
+  }
+  #title{
+   font-size: 20px;
+   color: rgb(50, 81, 255);
+   text-align: left;
+   animation: glow 2s ease-in-out infinite alternate;
+  }
+  // @-webkit-keyframes glow{
+  //   from{
+  //     text-shadow: 0 0 10px rgb(50, 81, 255),
+  //                  0 0 20px rgb(50, 81, 255),
+  //                  0 0 30px rgba(50, 81, 253, 0.979),
+  //                  0 0 40px rgba(65, 93, 252, 0.979),
+  //                  0 0 50px rgba(50, 81, 253, 0.979),
+  //                  0 0 60px rgba(77, 103, 252, 0.979),
+  //                  0 0 70px rgba(87, 111, 248, 0.979);
+
+  //   }
+  //   to{
+  //   text-shadow:
+  //   0 0 20px #4dff7a,
+  //   0 0 30px #4dff7a,
+  //   0 0 40px #4dff7a,
+  //   0 0 50px #4dff7a,
+  //   0 0 60px #4dff7a,
+  //   0 0 70px #4dff7a,
+  //   0 0 80px #4dff7a;
+    
+  //  }
+  // }
+  .example-icon{
+    color: rgb(2, 22, 27);
+  }
+  mat-toolbar{
+    background: #ffffffe8;
+    position: fixed;
+    top: 0%;
+ 
+    
+    // background: linear-gradient(to right, #23DBF9 0%, #FF64BD 100%) left bottom black no-repeat;
+
+    box-shadow: 0 6px rgba(8, 228, 107, 0.384);
+    // background-color: rgb(38, 0, 53);
+  }
+  .global-search{
+    height: 25px;
+
+  }
